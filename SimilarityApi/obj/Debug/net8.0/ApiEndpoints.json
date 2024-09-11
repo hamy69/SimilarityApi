@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "SimilarityApi.Controllers.SimilarityController",
+    "Method": "Post",
+    "RelativePath": "Similarity",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SimilarityApi.Models.SimilarityRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[SimilarityApi.Models.SimilarityResponse, SimilarityApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

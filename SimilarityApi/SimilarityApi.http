@@ -1,0 +1,6 @@
+@SimilarityApi_HostAddress = http://localhost:5056
+
+GET {{SimilarityApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
